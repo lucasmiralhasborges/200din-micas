@@ -1,7 +1,9 @@
-function App() {
+export default function App() {
   return (
-    <h1>Página de vendas no ar 🚀</h1>
-  )
+    <div style={{ padding: 40 }}>
+      <h1>🔥 Página de Vendas no AR</h1>
+      <p>Deploy funcionando perfeitamente.</p>
+      <p>Agora é só colocar o conteúdo.</p>
+    </div>
+  );
 }
-
-export default App
